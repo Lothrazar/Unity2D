@@ -2,12 +2,12 @@ Mono path[0] = 'C:/Users/Public/Documents/Unity Projects/u2d/test_Data/Managed'
 Mono path[1] = 'C:/Users/Public/Documents/Unity Projects/u2d/test_Data/Mono'
 Mono config path = 'C:/Users/Public/Documents/Unity Projects/u2d/test_Data/Mono/etc'
 PlayerConnection initialized from C:/Users/Public/Documents/Unity Projects/u2d/test_Data (debug = 0)
-PlayerConnection initialized network socket : 0.0.0.0 55198
-Multi-casting "[IP] 192.168.1.66 [Port] 55198 [Flags] 3 [Guid] 3978819245 [EditorId] 3611318097 [Version] 1048832 [Id] WindowsPlayer(OWNER-PC) [Debug] 1" to [225.0.0.222:54997]...
-Waiting for connection from host on [192.168.1.66:55198]...
+PlayerConnection initialized network socket : 0.0.0.0 55322
+Multi-casting "[IP] 192.168.1.66 [Port] 55322 [Flags] 3 [Guid] 3745475390 [EditorId] 3611318097 [Version] 1048832 [Id] WindowsPlayer(OWNER-PC) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.66:55322]...
 PlayerConnection accepted from [192.168.1.66] handle:0x1d8
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56245
-PlayerConnection already initialized - listening to [192.168.1.66:55198]
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56390
+PlayerConnection already initialized - listening to [192.168.1.66:55322]
 Initialize engine version: 5.1.1f1 (2046fc06d4d8)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -30,11 +30,27 @@ Platform assembly: C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Manage
 Loading C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-- Completed reload, in  0.065 seconds
+- Completed reload, in  0.095 seconds
 desktop: 1360x768 60Hz; virtual: 2640x1024 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
 Platform assembly: C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Public\Documents\Unity Projects\u2d\test_Data\Managed\System.dll (this message is harmless)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.623320 ms
+System memory in use before: 26.0 MB.
+System memory in use after: 26.1 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 804.
+Total: 0.349879 ms (FindLiveObjects: 0.042918 ms CreateObjectMapping: 0.029856 ms MarkObjects: 0.269951 ms  DeleteObjects: 0.006220 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.707845 ms
+System memory in use before: 26.0 MB.
+System memory in use after: 26.1 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 819.
+Total: 0.292033 ms (FindLiveObjects: 0.037631 ms CreateObjectMapping: 0.023014 ms MarkObjects: 0.226100 ms  DeleteObjects: 0.004354 ms)
+
 Waiting for finish
